@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+  {% block title %}
+
+    <title>2016 Sales Goals | wgi.buzz</title>
+
+  {% endblock %}
+
+  {% block content %}
+    <section id="sales-goals-section">
+        <div id="sales-goals-chart"></div>
+      </div>
+    </section>
+
+  {% endblock %}
+
+  {% block scripts %}
+
+    <script src="/js/d3.min.js"></script>
+    <script src="/js/bullet.js"></script>
+    <script>
+      var data = d3.csv.parse({{ sheet_data | safe }});
+      var sheetData = [],
+          totalMaxSales = 0,
+          officeMaxSales = 0;
+
+      data.forEach(function(d) {
+        var goals16 = createNumber(d['2016 GOALS']) / 1000000,
+            sales16 = createNumber(d['2016 SALES']) / 1000000;
+
+        d['OFFICE'] === 'TOTAL:' ? totalMaxSales =  Math.max(goals16, sales16) : officeMaxSales = Math.max(officeMaxSales, Math.max(goals16, sales16));
+
+      });
+
+      data.forEach(function(d) {
+        var goals2016 = createNumber(d['2016 GOALS']) / 1000000,
+            sales2016 = createNumber(d['2016 SALES']) / 1000000,
+            goals25p = goals2016 * 0.25,
+            goals50p = goals2016 * 0.5,
+            goals75p = goals2016 * 0.75,
+            locData = {};
+
+        if (d['OFFICE'] === 'TOTAL:') {
+          locData['title'] = '2016 Total';
+          locData['ranges'] = [goals25p, goals50p, goals75p, goals2016, totalMaxSales];
+        }
+        else {
+          locData['title'] = d['OFFICE'];
+          locData['ranges'] = [goals25p, goals50p, goals75p, goals2016, officeMaxSales];
+        }
+
+        locData['subtitle'] = '$, millions';
+
+        locData['measures'] = [sales2016];
+        locData['markers'] = [goals2016];
+
+        sheetData.push(locData);
+      });
+
+      sheetData.unshift(sheetData.pop());
+
+      var m = [24, 24, 24, 144],
+          w,
+          h = 125 - m[0] - m[2];
+
+      function sizeSVG() {
+        var chart = $('#sales-goals-chart');
+        $(window).width() > 767 ? w = chart.width() - m[1] - m[3] : w = 767 - m[1] - m[3];
+      }
+
+      function drawSVG() {
+        $('#sales-goals-chart svg, #sales-goals-chart .tooltip').remove();
+
+        var viz = d3.bullet()
+                      .width(w)
+                      .height(h)
+                      .duration(2500);
+
+        var vizSVG = d3.select('#sales-goals-chart').selectAll("svg")
+                        .data(sheetData)
+                        .enter().append("svg")
+                          .attr("class", function(d) {
+                            if (d.title === '2016 Total') {
+                              return "bullet twenty-fifteen";
+                            }
+                            return "bullet " + d.title.replace(/\s/g, '-').toLowerCase();
+                          })
+                          .attr("width", w + m[1] + m[3])
+                          .attr("height", h + m[0] + m[2])
+                        .append("g")
+                          .attr("transform", "translate(" + m[3] + ", 0)")
+                          .call(viz);
+
+        var vizTitle = vizSVG.append("g")
+                          .style("text-anchor", "end")
+                          .attr("transform", "translate(-6," + h / 2 + ")");
+
+        vizTitle.append("text")
+                .attr("class", "title")
+                .text(function(d) { return d.title; });
+
+        vizTitle.append("text")
+                .attr("class", "subtitle")
+                .attr("dy", "1em")
+                .html(function(d) { return d.subtitle; });
+      };
+
+      function createNumber(currencyString) {
+        return parseFloat(currencyString.substring(1).replace(/,/g, ''));
+      };
+
+      sizeSVG();
+      drawSVG();
+
+      $(window).on('resize', function() {
+        sizeSVG();
+        drawSVG();
+      });
+    </script>
+  {% endblock %}
