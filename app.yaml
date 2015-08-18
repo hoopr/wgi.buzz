@@ -1,11 +1,14 @@
+# App Info
 application: wgi-buzz
-version: 6
+version: 7
 runtime: python27
 api_version: 1
 threadsafe: yes
 
+# Cache expiration
 default_expiration: "30d"
 
+# Files to ignore
 skip_files:
 - ^(.*/)?app\.yaml
 - ^(.*/)?app\.yml
@@ -31,6 +34,7 @@ builtins:
 - appstats: on
 - remote_api: on
 
+# Handlers
 handlers:
 - url: /favicon\.ico
   static_files: favicon.ico
@@ -46,6 +50,9 @@ handlers:
 - url: /css
   static_dir: static/css
 
+- url: /data
+  static_dir: static/data
+
 - url: /fonts
   static_dir: static/fonts
 
@@ -56,8 +63,9 @@ handlers:
   static_dir: static/js
 
 - url: /.*
-  script: main.app
+  script: WGIbuzz.app
 
+# Libraries
 libraries:
 - name: webapp2
   version: "2.5.2"

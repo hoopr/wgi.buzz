@@ -14,20 +14,34 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+"""
+Base Imports
+"""
+import re # Regular expressions module
+import sys
 import webapp2
-import re
-import helpers
 
-# Individual page imports
-import home
-import projectManagers
-import transportation
+"""
+System Paths
+"""
+sys.path.append('lib') # Add lib folder to system path
 
-# Routing
+"""
+Pages
+"""
+from src.pages import home
+from src.pages import clients
+from src.pages import opportunities
+from src.pages import salesGoals
+
+"""
+Routing
+"""
 app = webapp2.WSGIApplication([
   ('/', home.homeHandler),
-  ('/opportunities/?', projectManagers.opportunitiesHandler),
-  ('/transportation/clients?', transportation.clientsHandler),
-  ('/transportation/sales-goals/2015?', transportation.salesGoals2015Handler),
-  ('/transportation/sales-goals/2016?', transportation.salesGoals2016Handler)
+  ('/opportunities/?', opportunities.opportunitiesHandler),
+  ('/transportation/clients?', clients.clientsHandler),
+  ('/transportation/sales-goals/2015?', salesGoals.salesGoals2015Handler),
+  ('/transportation/sales-goals/2016?', salesGoals.salesGoals2016Handler)
 ], debug=True)
