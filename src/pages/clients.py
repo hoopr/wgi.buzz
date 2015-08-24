@@ -26,11 +26,11 @@ class clientsHandler(utils.baseHandler):
     user, sign_in_url, sign_out_url = utils.get_user();
 
     # Get the sheet data from Clients spreadsheet
-    sheet_data = utils.get_drive_data(['1jRWlr8K32ICVsiVdvkXHf7cmry58iDqkqhLQowMAyd8'])
+    sheet_data = utils.get_drive_data([])
 
     # If the user exists (is logged in), render the page
     if user:
-      self.render("transportation/clients.html", sign_out_url=sign_out_url, sheet_data=sheet_data)
+      self.render("pages/clients.html", page_title="Clients", sign_out_url=sign_out_url, sheet_data=sheet_data)
 
     # If the user is not logged in, redirect to the sign in url
     else:

@@ -1,0 +1,214 @@
+/* ==========================================================================
+   Clients
+   ========================================================================== */
+
+/* Styles for the Clients page */
+.wrapper--clients {
+
+  /* Add clearfix to controls */
+  .controls {
+    @extend .clearfix;
+  }
+
+  /* Styles for the View toggle on Clients page */
+  .toggle,
+  .range {
+    margin-bottom: 3em;
+    text-align: center;
+    width: 100%;
+
+    /* Float left on medium or up devices */
+    @include breakpoint($mq_medium) {
+      float: left;
+      max-width: 320px;
+    }
+  }
+
+  /* Float range slider on Clients page right on medium or up devices */
+  .range {
+    @include breakpoint($mq_medium) {
+      float: right;
+    }
+  }
+
+  /* Adjust font and margin for footnotes */
+  .footnote {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.75em 0 1.5em;
+  }
+
+  /* Styles for the client map element */
+  #client-map {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 84%;
+    position: relative;
+    width: 100%;
+
+    /* Loop through map of choropleth colors and build fill colors */
+    @each $selector, $color in $choropleth-colors {
+      .q#{$selector} {
+        fill: $color;
+      }
+    }
+
+    /* Styles for the tooltip */
+    &_tooltip {
+      background-color: white;
+      border-radius: 0.25em;
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      display: none;
+      padding: 0 1.5em;
+      position: fixed;
+
+      /* Thicker font weight for tooltip title */
+      h5 {
+        font-weight: 500;
+      }
+
+      /* Font size for tooltip paragraph */
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  /* Styles for the district map (the actual SVG) */
+  #district-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* Styles for a district on the SVG */
+  .district {
+
+    /* Help cursor (with question mark) on hover */
+    &:hover {
+      cursor: help;
+    }
+
+    /* Styles for the shape that forms a district on the SVG */
+    &_outline {
+      fill: #fff;
+      stroke: #000;
+      stroke-width: 1px;
+      transition: 1.5s;
+    }
+
+    /* Styles for the text inside a district on the SVG */
+    &_text {
+      fill: #fff;
+      stroke: #000;
+      stroke-width: 0.5px;
+    }
+
+    /* Styles for the line that points to a county or city */
+    &_connector {
+      stroke: #000;
+      stroke-width: 1px;
+    }
+  }
+
+  /* Styles for the list of clients and projects Material Design icons*/
+  #client-list .material-icons {
+    font-size: inherit;
+    line-height: inherit;
+    transition: 0.25s ease-in-out;
+    width: 24px;
+    vertical-align: -7.5%;
+  }
+
+  /* Styles for components of the client list */
+  .client-list {
+
+    /* Styles for the title */
+    &_title {
+      @extend .clearfix;
+
+      display: block;
+      margin: 1em 0;
+
+      /* Flex on medium and up devices */
+      @include breakpoint($mq_medium) {
+        display: flex;
+      }
+    }
+
+    /* Increase font size of the clients section */
+    &_clients {
+      font-size: 1.25rem;
+    }
+
+    /* Flex and margin for an item */
+    &_item {
+      @extend .clearfix;
+
+      display: block;
+      margin-top: 1.5em;
+      margin-bottom: 0.75em;
+
+      /* Flex on medium and up devices */
+      @include breakpoint($mq_medium) {
+        display: flex;
+      }
+    }
+
+    /* Float names to the left */
+    &_name {
+      display: inline;
+      float: none;
+
+      /* Float on medium and up devices */
+      @include breakpoint($mq_medium) {
+        float: left;
+      }
+    }
+
+    /* Don't show the colon on medium and large screens */
+    &_colon {
+      @include breakpoint($mq_medium) {
+        display: none;
+      }
+    }
+
+    /* Flex the spacer to take up room between name and jtd. Dot the border */
+    &_flex {
+      display: none;
+
+      /* Display on medium and up devices */
+      @include breakpoint($mq_medium) {
+        border-bottom: 1px dotted #ccc;
+        display: inline;
+        flex: 1 0 auto;
+        margin: 0 0.25em;
+      }
+    }
+
+    /* Float total fees to the right */
+    &_jtd {
+      display: inline;
+      float: none;
+      font-style: italic;
+
+      /* Float on medium and up devices */
+      @include breakpoint($mq_medium) {
+        float: right;
+        font-style: normal;
+      }
+    }
+
+    /* Adjust the styles for a project item */
+    &_projects .client-list_item {
+      font-size: 1rem;
+      margin-top: 0;
+      padding-left: 24px;
+    }
+
+    /* Chance alignment of Material Design icons for a project */
+    &_projects .material-icons {
+      vertical-align: -10%;
+    }
+  }
+}

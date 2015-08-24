@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="wrapper--opportunities grid-container--full">
+
+  <!-- Opportunities Textures -->
+  <svg class="opportunities_textures" height=0 width=0>
+    <pattern id="diagonal-stripe" patternUnits="userSpaceOnUse" width="10" height="10">
+      <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J2JsYWNrJyBzdHJva2Utd2lkdGg9JzEnLz4KPC9zdmc+Cg==" x="0" y="0" width="10" height="10"></image>
+    </pattern>
+    <pattern id="horizontal-stripe" patternUnits="userSpaceOnUse" width="5" height="5">
+      <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMTAnIGhlaWdodD0nMScgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg==" x="0" y="0" width="5" height="5"></image>
+    </pattern>
+    <pattern id="vertical-stripe" patternUnits="userSpaceOnUse" width="10" height="10">
+      <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMScgaGVpZ2h0PScxMCcgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg==" x="0" y="0" width="10" height="10"> </image>
+    </pattern>
+    <pattern id="crosshatch" patternUnits="userSpaceOnUse" width="10" height="10">
+      <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg==" x="0" y="0" width="10" height="10"></image>
+    </pattern>
+    <pattern id="dot" patternUnits="userSpaceOnUse" width="5" height="5">
+      <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMycgaGVpZ2h0PSczJyBmaWxsPSdibGFjaycgLz4KPC9zdmc+Cg==" x="0" y="0" width="5" height="5"> </image>
+    </pattern>
+  </svg>
+  <!-- End Opportunities Textures -->
+
+  <!-- Opportunities Division Filter -->
+  <form class="opportunities-filter opportunities-filter--division prefix-5 grid-40 suffix-5 tablet-grid-100 mobile-grid-100">
+    <h3 class="title">Divisions</h3>
+
+    <div class="opportunities-checkbox opportunities-checkbox__civil checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__civil" id="opportunities-filter__civil" value="Civil" checked><span>Civil</span>
+      </label>
+    </div><!-- .opportunities-checkbox__civil -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__creative checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__creative" id="opportunities-filter__creative" value="Creative" checked><span>Creative</span>
+      </label>
+    </div><!-- .opportunities-checkbox__creative -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__epla checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__epla" id="opportunities-filter__epla" value="E/P/LA" checked><span>E / P / LA</span>
+      </label>
+    </div><!-- .opportunities-checkbox__epla -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__survey-sue checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__survey-sue" id="opportunities-filter__survey-sue" value="Survey/SUE" checked><span>Survey / SUE</span>
+      </label>
+    </div><!-- .opportunities-checkbox__survey-sue -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__transportation checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__transportation" id="opportunities-filter__transportation" value="Transportation" checked><span>Transportation</span>
+      </label>
+    </div><!-- .opportunities-checkbox__transportation -->
+  </form><!-- #opportunities-filter -->
+  <!-- End Opportunities Division Filter -->
+
+  <!-- Opportunities Location Filter -->
+  <form class="opportunities-filter opportunities-filter--location prefix-5 grid-40 suffix-5 tablet-grid-100 mobile-grid-100">
+    <h3 class="title">Locations</h3>
+
+    <div class="opportunities-checkbox opportunities-checkbox__fll checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__fll" id="opportunities-filter__fll" value="Fort Lauderdale" checked><span>Fort Lauderdale</span>
+      </label>
+    </div><!-- .opportunities-checkbox__fll -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__jax checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__jax" id="opportunities-filter__jax" value="Jacksonville" checked><span>Jacksonville</span>
+      </label>
+    </div><!-- .opportunities-checkbox__jax -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__orl checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__orl" id="opportunities-filter__orl" value="Orlando" checked><span>Orlando</span>
+      </label>
+    </div><!-- .opportunities-checkbox__orl -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__tal checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__tal" id="opportunities-filter__tal" value="Tallahassee" checked><span>Tallahassee</span>
+      </label>
+    </div><!-- .opportunities-checkbox__tal -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__tpa checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__tpa" id="opportunities-filter__tpa" value="Tampa" checked><span>Tampa</span>
+      </label>
+    </div><!-- .opportunities-checkbox__tpa -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__wpb checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__wpb" id="opportunities-filter__wpb" value="West Palm Beach" checked><span>West Palm Beach</span>
+      </label>
+    </div><!-- .opportunities-checkbox__wpb -->
+
+    <div class="opportunities-checkbox opportunities-checkbox__protested checked">
+      <label>
+        <input type="checkbox" name="opportunities-filter__protested" id="opportunities-filter__protested" value="Protested" checked><span>Protested</span>
+      </label>
+    </div><!-- .opportunities-checkbox__protested -->
+  </form><!-- #opportunities-legend -->
+  <!-- End Opportunities Location Filter -->
+
+  <!-- Opportunities Chart SVG -->
+  <div id="opportunities-chart"></div>
+  <!-- End Opportunities Chart SVG -->
+
+</div><!-- .wrapper--opportunities -->
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">{% include "opportunities.js" %}</script>
+{% endblock %}
+

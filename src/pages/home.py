@@ -27,7 +27,7 @@ class homeHandler(utils.baseHandler):
 
     # If the user exists (is logged in), render the page
     if user:
-      self.render("home.html", sign_out_url=sign_out_url)
+      self.render("pages/home.html", page_title="Home", sign_out_url=sign_out_url)
 
     # If the user is not logged in, redirect to the sign in url
     else:

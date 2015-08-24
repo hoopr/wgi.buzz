@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/* Make default font size 100% */
+html,
+body {
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* Adjust h1 font size */
+h1 {
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+
+  /* Increase size slightly on large devices */
+  @include breakpoint($mq_large) {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+
+/* Adjust h2 font size */
+h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+
+  /* Increase size slightly on large devices */
+  @include breakpoint($mq_large) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+/* Thicker font for links */
+a {
+  font-weight: 400;
+}
+
+/* Thicker font for strong element */
+strong {
+  font-weight: 700;
+}

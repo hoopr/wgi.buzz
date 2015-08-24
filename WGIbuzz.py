@@ -25,11 +25,13 @@ import webapp2
 """
 System Paths
 """
-sys.path.append('lib') # Add lib folder to system path
+from google.appengine.ext import vendor
+vendor.add('lib')
 
 """
-Pages
+Data & Pages
 """
+from src import data
 from src.pages import home
 from src.pages import clients
 from src.pages import opportunities
@@ -40,8 +42,8 @@ Routing
 """
 app = webapp2.WSGIApplication([
   ('/', home.homeHandler),
+  ('/data/?', data.dataHandler),
+  ('/clients/?', clients.clientsHandler),
   ('/opportunities/?', opportunities.opportunitiesHandler),
-  ('/transportation/clients?', clients.clientsHandler),
-  ('/transportation/sales-goals/2015?', salesGoals.salesGoals2015Handler),
-  ('/transportation/sales-goals/2016?', salesGoals.salesGoals2016Handler)
+  ('/sales-goals/?', salesGoals.salesGoalsHandler)
 ], debug=True)

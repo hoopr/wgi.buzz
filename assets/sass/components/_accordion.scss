@@ -1,0 +1,24 @@
+/* ==========================================================================
+   Accordion
+   ========================================================================== */
+
+/* Styles for the accordion header */
+.accordion_header {
+  cursor: pointer;
+
+  /* On hover, make less opaque */
+  &:hover {
+    opacity: 0.5;
+  }
+
+  /* Rotate arrow in header when open */
+  &.active .material-icons {
+    transform: rotate(90deg);
+    transition: 0.25s ease-in-out;
+  }
+}
+
+/* Hide the content by default */
+.accordion_content {
+  display: none;
+}

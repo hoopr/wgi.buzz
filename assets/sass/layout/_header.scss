@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+/* Header styles */
+#masthead {
+
+  /* Self-clear children */
+  @extend .clearfix;
+
+  /* Adjust some positioning */
+  height: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: fixed;
+  text-align: center;
+
+  /* On really big devices, increase left and right padding */
+  @include breakpoint($mq_big) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* STyles for some layout elements */
+  .mdl-layout {
+
+    /* Flex the title and adjust some styles */
+    &-title {
+      flex: 1 0 auto;
+      font-size: 2.25rem;
+      padding-right: 32px;
+    }
+
+    /* Put the menu button on the right and adjust some positioning */
+    &__drawer-button {
+      left: auto;
+      line-height: 56px;
+      margin: 8px 8px;
+      right: 0;
+
+      /* On large devices, increase line height */
+      @include breakpoint($mq_large) {
+        line-height: 64px;
+      }
+
+      /* On really big devices, increase left/right padding */
+      @include breakpoint($mq_big) {
+        margin: 8px 16px;
+      }
+
+      /* Increase font size of menu icon */
+      .material-icons {
+        font-size: 32px;
+      }
+    }
+
+    /* Remove padding from header row */
+    &__header-row {
+      padding: 0;
+    }
+  }
+}
+
+/* Logo styles */
+.logo {
+  float: left;
+  margin-top: -2px;
+  max-width: 49px;
+  width: 100%;
+
+  /* On larger devices, increase size slightly */
+  @include breakpoint($mq_large) {
+    max-width: 56px;
+  }
+}

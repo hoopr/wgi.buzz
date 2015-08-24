@@ -1,0 +1,33 @@
+/* =========================================================================
+   Content
+   ========================================================================= */
+
+/* Change opacity of the overlay when nav opens */
+.mdl-layout__obfuscator {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Give top margin to page content to account for fixed nav */
+.page-content {
+  margin-top: 64px;
+  padding-top: 0.75em;
+  padding-bottom: 1.5em;
+
+  /* Give top padding on medium devices and up */
+  @include breakpoint($mq_medium) {
+    padding-top: 2.25em;
+  }
+}
+
+/* Remove margin from title elements */
+.title {
+  margin: 0;
+}
+
+/* Move loading spinner to center of page and hide by default */
+.loading {
+  display: none;
+  margin-top: 2em;
+  text-align: center;
+}
+

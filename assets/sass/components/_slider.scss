@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Slider (Range)
+   ========================================================================== */
+
+/* Styles for the slider/range component */
+.range {
+
+  /* Flex the container that holds the slider */
+  &_slider-container {
+    display: flex;
+  }
+
+  /* Adjust left and right labels of the range */
+  &_left,
+  &_right {
+    font-size: 1.125rem;
+    line-height: 1;
+    margin-top: 5px;
+  }
+
+  /* Styles for the slider */
+  #range_slider {
+    background: #eee;
+    border-radius: 14px;
+    flex: 1 0 auto;
+    margin: 5px 16px 0;
+    padding: 0 10px;
+
+    /* Specific styles for target */
+    &.noUi-target {
+      border: 0;
+      box-shadow: none;
+      height: 16px;
+    }
+
+    /* Styles for a handle (circular component) */
+    .noUi-handle {
+      background: rgb(8, 156, 81);
+      border: 0;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+      border-radius: 50%;
+      cursor: pointer;
+      height: 20px;
+      left: 0;
+      top: -2px;
+      width: 20px;
+
+      /* Remove psuedo-element content */
+      &:before,
+      &:after {
+        content: none;
+      }
+
+      /* Adjust position of left (lower limit) handle */
+      &-lower {
+        left: -10px;
+      }
+
+      /* Adjust position of right (upper limit) handle */
+      &-upper {
+        left: initial;
+        right: 10px;
+      }
+    }
+
+    /* Styles for the colored connector of a range */
+    .noUi-connect {
+      background: rgba(8, 156, 81, 0.375);
+      border-radius: 14px;
+      box-shadow: none;
+    }
+
+    /* Styles for the background */
+    .noUi-background {
+      background: #eee;
+      border-radius: 14px;
+      box-shadow: none;
+    }
+  }
+}

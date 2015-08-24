@@ -1,0 +1,26 @@
+<header id="masthead" class="mdl-layout__header">
+  <div class="mdl-layout__header-row">
+    <a href="{{ host_url }}" class="logo">
+      <svg viewBox="0 0 74 73">
+        <use xlink:href="/img/defs.svg#logo"></use>
+      </svg>
+    </a><!-- .logo -->
+    <span class="mdl-layout-title">{{ page_title }}</span>
+  </div><!-- mdl-layout__header-row -->
+</header><!-- #masthead -->
+
+<div class="mdl-layout__drawer">
+  <span class="mdl-layout-title">Navigation</span>
+
+  <nav class="mdl-navigation">
+    <a class="mdl-navigation__link {%if page_title == 'Home' %}active {% endif %}" href="{{ host_url }}"><i class="material-icons">home</i>Home</a>
+
+    <a class="mdl-navigation__link {%if page_title == 'Clients' %}active {% endif %}" href="{{ host_url }}/clients"><i class="material-icons">people</i>Clients</a>
+
+    <a class="mdl-navigation__link {%if page_title == 'Opportunities' %}active {% endif %}" href="{{ host_url }}/opportunities"><i class="material-icons">view_list</i>Opportunities</a>
+
+    <a class="mdl-navigation__link {%if page_title == 'Sales Goals' %}active {% endif %}" href="{{ host_url }}/sales-goals"><i class="material-icons">flag</i>Sales Goals</a>
+  </nav><!-- mdl-navigation -->
+
+  <a class="sign-out-link" href="{{ sign_out_url }}"><i class="material-icons">exit_to_app</i>Sign out</a>
+</div><!-- mdl-layout__drawer -->

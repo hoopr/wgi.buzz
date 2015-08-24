@@ -25,7 +25,9 @@ Templating Config
 """
 
 # Configure Jinja environment using template directory and other flags
-template_dir = os.path.join(os.path.dirname(__file__), '../templates')
+template_dir = [os.path.join(os.path.dirname(__file__), '../templates'),
+                os.path.join(os.path.dirname(__file__), '../templates/includes'),
+                os.path.join(os.path.dirname(__file__), '../assets/js/src/pages')]
 jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir), autoescape = True)
 
 ##
@@ -34,6 +36,16 @@ jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir), a
 def render_str(template, **params):
   t = jinja_env.get_template(template)
   return t.render(params)
+
+"""
+Date & Time
+"""
+
+##
+# Function to get current year
+##
+def get_this_year():
+  return time.strftime("%Y")
 
 """
 Handlers
@@ -55,10 +67,10 @@ class baseHandler(webapp2.RequestHandler):
   ##
   def render_str(self, template, **params):
       t = jinja_env.get_template(template)
-      return t.render(params)
+      return t.render(params, host_url=self.request.host_url)
 
   ##
-  # Function to redner a template
+  # Function to render a template
   ##
   def render(self, template, **kw):
       self.write(self.render_str(template, **kw))
@@ -85,7 +97,7 @@ Data Retrieval
 """
 
 ##
-# Function to return a file from the given service with the give ID
+# Function to return a file from the given service with the given ID
 ##
 def get_file(service, file_id):
 

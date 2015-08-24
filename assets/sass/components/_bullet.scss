@@ -1,0 +1,46 @@
+/* ==========================================================================
+   D3 Bullet
+   ========================================================================== */
+
+/* Styles for a bullet chart */
+.bullet {
+  font-size: 0.75rem;
+
+  /* Title styles */
+  .title {
+    cursor: initial;
+    fill: $heading_gray;
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+
+  /* Subtitle styles */
+  .subtitle {
+    fill: $text_gray;
+    font-size: 1rem;
+  }
+
+  /* Marker stroke styles */
+  .marker {
+    stroke: #000;
+    stroke-width: 4px;
+  }
+
+  /* Increase stroke width of a measure */
+  .measure.s0 {
+    stroke-width: 2px;
+  }
+
+  /* Stroke styles for a tick line */
+  .tick line {
+    stroke: #666;
+    stroke-width: .5px;
+  }
+
+  /* For each range number, loop through and assign fill color */
+  @each $range, $fill in $bullet-colors {
+    .range.s#{$range} {
+      fill: $fill;
+    }
+  }
+}

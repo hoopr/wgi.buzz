@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Sales Goals
+   ========================================================================== */
+
+/* Styles for the Sales Goals page */
+.wrapper--sales-goals {
+
+  .toggle {
+    margin-bottom: 3em;
+    text-align: center;
+
+    .title {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  /* Styles for the sales chart */
+  #sales-goals-chart {
+    font-weight: 400;
+    padding-top: 0.75em;
+
+    /* Styles for a tooltip */
+    .tooltip {
+      background-color: white;
+      border-radius: 0.25rem;
+      box-shadow: 2px 2px 8px #666;
+      display: inline-block;
+      padding: 0.75rem;
+      pointer-events: none;
+      position: absolute;
+
+      /* Styles for the header in the tooltip */
+      p {
+        font-color: $heading_gray;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+      }
+    }
+
+    /* Make cursor the help (question mark) for measure and markers */
+    .marker,
+    .measure {
+      cursor: help;
+    }
+
+    /* Loop through location colors map */
+    @each $location, $colors in $location-colors {
+
+      /* Build selector based on location */
+      .#{$location} .measure.s0 {
+
+        /* Loop through color options inside the location */
+        @each $value, $color in $colors {
+
+          /* Set the fill color if this is the background */
+          @if ($value == 'background') {
+            fill: $color;
+
+            /* If this is stroke, set stroke color */
+          } @else {
+            stroke: $color;
+
+            /* Make the fill when hovering the same as the stroke color */
+            &:hover {
+              fill: $color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

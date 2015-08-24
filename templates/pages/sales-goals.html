@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="wrapper--sales-goals grid-container--full">
+    <div class="toggle">
+      <h3 class="title">Year</h3>
+
+      <span class="toggle_left">2015</span>
+      <label class="mdl-switch mdl-js-switch" for="toggle-year">
+        <input type="checkbox" id="toggle-year" class="mdl-switch__input" />
+        <span class="mdl-switch__label"></span>
+      </label>
+      <span class="toggle_right">2016</span>
+    </div><!-- .toggle -->
+
+    <div id="sales-goals-chart"></div><!-- #sales-goals-chart -->
+  </div><!-- .wrapper--sales-goals -->
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">{% include "sales-goals.js" %}</script>
+{% endblock %}

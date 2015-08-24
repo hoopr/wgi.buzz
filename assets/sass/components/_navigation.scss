@@ -1,0 +1,64 @@
+/* =========================================================================
+   Navigation
+   ========================================================================= */
+
+/* Make white background for navigation drawer */
+.mdl-layout__drawer {
+  background-color: white;
+  border: 0;
+
+  /* Adjust left padding for drawer title */
+  .mdl-layout-title {
+    background-color: rgb(96,125,139);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    color: $white;
+    font-size: 1.5rem;
+    padding-left: 1em;
+  }
+
+  /* Adjust positioning of icons in the nav slightly */
+  .material-icons {
+    margin-right: 16px;
+    vertical-align: -25%;
+  }
+
+  /* Navigation styles */
+  .mdl-navigation {
+
+    /* Remove top padding */
+    padding-top: 0;
+
+    /* Increase font size of links in nav */
+    .mdl-navigation__link {
+      color: $text_gray;
+      font-size: 1rem;
+      padding: 0.75em 1.5em;
+
+      /* Background color on hover or when page is active */
+      &:hover,
+      &.active {
+        background-color: rgba(0,0,0,0.05);
+      }
+
+      /* Black text for active page */
+      &.active {
+       color: $black;
+      }
+    }
+  }
+
+  /* Styles for sign out link */
+  .sign-out-link {
+    bottom: 22px;
+    color: $text_gray;
+    padding-left: 1.5em;
+    position: absolute;
+
+    /* Less opaque on hover */
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+

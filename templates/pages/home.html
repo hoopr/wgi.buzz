@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="wrapper--home card-container grid-container">
+
+  <!-- Clients -->
+  <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+    <div class="card-clients mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Clients</h2>
+      </div><!-- .mdl-card__title -->
+
+      <div class="mdl-card__supporting-text">
+        See client sales data over the years grouped by district and presented on a choropleth map of Florida.
+      </div><!--.mdl-card__supporting-text -->
+
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="{{host_url}}/clients"><i class="material-icons">send</i>View</a>
+      </div><!-- .mdl-card__actions -->
+    </div><!-- .card-clients -->
+  </div><!-- .card-wrapper -->
+  <!-- End Clients -->
+
+  <!-- Opportunities -->
+  <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+    <div class="card-opportunities mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Opportunities</h2>
+      </div><!-- .mdl-card__title -->
+
+      <div class="mdl-card__supporting-text">
+        Look at or update a timeline of projects being pursued and when different phases of those projects occur.
+      </div><!--.mdl-card__supporting-text -->
+
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="{{host_url}}/opportunities"><i class="material-icons">send</i>View</a>
+
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://docs.google.com/a/wgi.buzz/spreadsheets/d/1--xnM_q-QZ9fYBj7er0j-khu_QBskbWVX9dvLOwbji8/edit#gid=0" target="_blank"><i class="material-icons">edit</i>Update</a>
+      </div><!-- .mdl-card__actions -->
+    </div><!-- .card-opportunities -->
+  </div><!-- .card-wrapper -->
+  <!-- End Opportunities -->
+
+  <!-- Project Initiation Package -->
+  <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+    <div class="card-pip mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Project Initiation Package</h2>
+      </div><!-- .mdl-card__title -->
+
+      <div class="mdl-card__supporting-text">
+        Use the links below to submit a PIF or Supplemental form. See the <a class="underline" href="https://docs.google.com/a/wgi.buzz/presentation/d/1_-OUq0yHtnadPoQ_yyerkL38yJIz2QtXuUYSY2HdogA/edit#slide=id.p" target="_blank">instructions</a> if you need help.
+      </div><!--.mdl-card__supporting-text -->
+
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://sites.google.com/a/wgi.buzz/project-initiation-package/submit-pif" target="_blank"><i class="material-icons">send</i>PIF</a>
+
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://sites.google.com/a/wgi.buzz/project-initiation-package/submit-supplemental" target="_blank"><i class="material-icons">send</i>Supplemental</a>
+      </div><!-- .mdl-card__actions -->
+    </div><!-- .card-pip -->
+  </div><!-- .card-wrapper -->
+  <!-- End Project Initiation Package -->
+
+  <!-- Sales Goals -->
+  <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+    <div class="card-sales-goals mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">Sales Goals</h2>
+      </div><!-- .mdl-card__title -->
+
+      <div class="mdl-card__supporting-text">
+        Check out or update sales goals by location. Inspired by the United Way goal thermometer!
+      </div><!--.mdl-card__supporting-text -->
+
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="{{host_url}}/sales-goals"><i class="material-icons">send</i>View</a>
+
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://docs.google.com/a/wgi.buzz/spreadsheets/d/15eCdm0k0e_X8dSA414bCGLXkAb98Fy2RabwXj3toWms/edit?usp=drive_web" target="_blank"><i class="material-icons">edit</i>Update 2015</a>
+
+        <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://docs.google.com/spreadsheets/d/16sHzeupzLJAeV5Ak_LwzKBl0R4Go68024wqz1hPFRVo/edit#gid=324793408" target="_blank"><i class="material-icons">edit</i>Update 2016</a>
+      </div><!-- .mdl-card__actions -->
+    </div><!-- .card-pip -->
+  </div><!-- .card-wrapper -->
+  <!-- End Sales Goals -->
+
+</div><!-- .card-container.grid-container -->
+{% endblock %}

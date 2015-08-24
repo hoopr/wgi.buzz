@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/* Media Queries
+   ========================================================================== */
+
+/* Media query sizes */
+$small_max: 40rem; // 640px, usually
+$medium_min: 40.0625rem; // 641px, usually
+$medium_max: 64rem; // 1024px, usually
+$large_min: 64.0625rem; // 1025px, usually
+$large_max : 75rem; // 1200px, usually
+$big_min: 75.0625rem; // 1201px, usually
+
+/* Breakpoint sizes */
+$mq_small: max-width $small_max; // @media (max-width: 40rem)
+$mq_medium: min-width $medium_min; // @media (min-width: 40.0625rem)
+$mq_large: min-width $large_min; // @media (min-width: 64.0625rem)
+$mq_big: min-width $big_min; // @media (min-width: 75.0625rem)
+
+/* Colors
+   ========================================================================== */
+
+/* Basic colors */
+$black : #000000;
+$white: #ffffff;
+
+/* Theme colors */
+$heading_gray: #555555;
+$text_gray: #666666;
+
+
+/* Map of page card colors */
+$page-colors: (
+  clients: rgb(76, 175, 80),
+  opportunities: rgb(33, 150, 243),
+  pip: rgb(103, 58, 183),
+  sales-goals: rgb(255, 152, 0)
+);
+
+/* Map of colors for a choropleth chart */
+$choropleth-colors: (
+  1: rgb(245, 255, 245),
+  2: rgb(222, 247, 235),
+  3: rgb(198, 239, 219),
+  4: rgb(178, 239, 219),
+  5: rgb(158, 225, 202),
+  6: rgb(130, 220, 200),
+  7: rgb(107, 214, 174),
+  8: rgb(90, 210, 170),
+  9: rgb(66, 198, 146),
+  10: rgb(33, 181, 113),
+  11: rgb(8, 156, 81),
+  12: rgb(8, 131, 75),
+  13: rgb(8, 107, 48),
+  14: rgb(8, 75, 48)
+);
+
+/* Map of colors for opportunities locations */
+$location-colors: (
+  fll: (
+    background: #F4F4A6,
+    border: #EDED6A
+  ),
+  jax: (
+    background: #66BBEF,
+    border: #008EE5
+  ),
+  orl: (
+    background: #BEA9F5,
+    border: #936FEE
+  ),
+  tal: (
+    background: #FFC886,
+    border: #FFA435
+  ),
+  tpa: (
+    background: #FD99A0,
+    border: #FC5561
+  ),
+  wpb: (
+    background: #66D09B,
+    border: #00B058
+  ),
+  protested: (
+    background: #D6D6D6,
+    border: #BBBBBB
+  ),
+  total: (
+    background: #444444,
+    border: #000000
+  )
+);
+
+/* Map of colors for bullet charts */
+$bullet-colors: (
+  0: #aaa,
+  1: #bbb,
+  2: #ccc,
+  3: #ddd,
+  4: #eee
+);
+
+/* Backgrounds
+   ========================================================================== */
+
+/* Map of background textures for divisions */
+$background-textures: (
+  civil: (
+    image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMycgaGVpZ2h0PSczJyBmaWxsPSdibGFjaycgLz4KPC9zdmc+Cg=="),
+    size: 5px 5px
+  ),
+  creative: (
+    image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMScgaGVpZ2h0PScxMCcgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg=="),
+    size: 10px 10px
+  ),
+  epla: (
+    image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMTAnIGhlaWdodD0nMScgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg=="),
+    size: 5px 5px
+  ),
+  survey-sue: (
+    image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc4JyBoZWlnaHQ9JzgnPgogIDxyZWN0IHdpZHRoPSc4JyBoZWlnaHQ9JzgnIGZpbGw9JyNmZmYnLz4KICA8cGF0aCBkPSdNMCAwTDggOFpNOCAwTDAgOFonIHN0cm9rZS13aWR0aD0nMC41JyBzdHJva2U9JyNhYWEnLz4KPC9zdmc+Cg=="),
+    size: 10px 10px
+  ),
+  transportation: (
+    image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J2JsYWNrJyBzdHJva2Utd2lkdGg9JzEnLz4KPC9zdmc+Cg=="),
+    size: 10px 10px
+  )
+);

@@ -1,0 +1,70 @@
+/* =========================================================================
+   Cards
+   ========================================================================= */
+
+/* Give some padding to cards */
+.card-wrapper {
+  padding: 0.75em 0;
+
+  /* On medium and up devices, give left and right padding */
+  @include breakpoint($mq_medium) {
+    padding: 0.75em;
+  }
+
+  /* On medium and up devices, clear every 3rd element */
+  &:nth-of-type(2n+1) {
+    @include breakpoint($mq_medium) {
+      clear: both;
+    }
+  }
+}
+
+/* Styles for cards */
+.mdl-card {
+  width: 100%;
+
+  /* Adjust some styles of the card title */
+  &__title {
+    color: $heading_gray;
+    height: 100px;
+  }
+
+  /* Adjust some styles of the card text and buttons */
+  &__supporting-text,
+  .mdl-button {
+    color: $text_gray;
+    font-size: 0.875rem;
+  }
+
+  /* Increase bottom/top padding of supporting text */
+  &__supporting-text {
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 24px 16px;
+  }
+
+  /* Alter size and position of icons in card links */
+  .mdl-button .material-icons {
+    font-size: 1rem;
+    margin-right: 0.25em;
+    vertical-align: -20%;
+  }
+}
+
+/* Loop through each color in the page-colors variable and set colors */
+@each $page, $color in $page-colors {
+  .card-#{$page} {
+
+    /* Colors for the card title */
+    .mdl-card__title {
+      background: $color;
+      color: $white;
+    }
+
+    /* Colors for the links/buttons */
+    a,
+    .mdl-button{
+      color: $color;
+    }
+  }
+}

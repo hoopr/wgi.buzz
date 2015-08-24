@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Color
+   ========================================================================== */
+html,
+body {
+  color: $text_gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading_gray;
+}
+
+
+/* Styles for links */
+a {
+  color: $text_gray;
+  text-decoration: none;
+}
+
+/* Styles for links with underline class */
+.underline{
+  text-decoration: underline;
+  transition: opacity 0.3s;
+
+  /* Less opaque on hover */
+  &:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+}

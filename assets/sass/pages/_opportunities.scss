@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Opportunities
+   ========================================================================== */
+
+/* Styles for the Opportunities page */
+.wrapper--opportunities {
+  height: 100%;
+  height: 100vh;
+
+  /* Styles for the division and location filters */
+  .opportunities-filter {
+    font-weight: 400;
+    padding: 0 0 3em;
+    text-align: center;
+  }
+
+  /* Styles for a checkbox */
+  .opportunities-checkbox {
+    border: 2px solid transparent;
+    border-radius: 0.25em;
+    display: inline-block;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0 0.25em;
+    position: relative;
+    transition: all 0.3s;
+
+    /* Basic styles for after pseudo element for a checked checkbox */
+    &.checked:after {
+      background-repeat: repeat;
+      bottom: 0;
+      content: "";
+      left: 0;
+      opacity: 0.2;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    /* More opacity for the Survey / SUE texture because it's very light */
+    &__survey-sue.checked:after {
+      opacity: 0.4;
+    }
+
+    /* Loop through background textures map */
+    @each $division, $background-options in $background-textures {
+
+      /* Build selector based on division */
+      &__#{$division}.checked:after {
+
+        /* Loop through background options inside the background textures */
+        @each $opt, $val in $background-options {
+
+          /* Set the background option (image and size) */
+          background-#{$opt}: #{$val};
+        }
+      }
+    }
+
+    /* Loop through location colors map */
+    @each $location, $colors in $location-colors {
+
+      /* Build selector based on location */
+      &__#{$location}.checked {
+
+        /* Loop through background and border colors inside the location */
+        @each $value, $color in $colors {
+
+          /* Set the color */
+          #{$value}-color: #{$color};
+        }
+      }
+    }
+
+    /* Give user a cursor when over a label */
+    label {
+      cursor: pointer;
+    }
+
+    /* Give some space between the checkbox and label */
+    span {
+      display: inline-block;
+      margin-left: 0.5em;
+    }
+  }
+
+  /* Styles for the Opportunities chart */
+  #opportunities-chart {
+    font-weight: 400;
+
+    /* Helper cursor for a phase on the SVG */
+    .phase {
+      cursor: help;
+    }
+
+    /* Tooltip styles */
+    .tooltip {
+      background-color: $white;
+      border-radius: 0.25em;
+      box-shadow: 2px 2px 8px #222;
+      display: inline-block;
+      font-size: 1.25rem;
+      padding: 0.5em;
+      pointer-events: none;
+      position: absolute;
+
+      /* Styles for the tooltip header */
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0 0 0.5em;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: uppercase;
+      }
+    }
+
+    /* X Axis styles */
+    .x.axis {
+
+      /* Change x axis text to a gray */
+      .tick text {
+        fill: $heading_gray;
+      }
+
+      /* Hide the x domain */
+      .domain {
+        display: none;
+      }
+    }
+  }
+}

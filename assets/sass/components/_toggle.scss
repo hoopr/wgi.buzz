@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Toggle
+   ========================================================================== */
+
+/* Styles for a toggle component */
+.toggle {
+
+  /* Styles for the toggle labels */
+  span {
+    display: inline-block;
+    font-size: 1.125rem;
+    height: 24px;
+    vertical-align: -15%;
+  }
+
+  /* Styles for actual toggle component */
+  .mdl-switch {
+    margin-left: 16px;
+    padding-left: 88px;
+    width: auto;
+
+    /* Alter the track */
+    &__track {
+      background: rgba(8, 156, 81, 0.5);
+      height: 16px;
+      width: 72px;
+    }
+
+    /* Alter the circlular thumb */
+    &__thumb {
+      background: rgb(8, 156, 81);
+      top: 3px;
+    }
+
+    /* Change some styles when the toggle is checked */
+    &.is-checked {
+      .mdl-switch__track {
+        background: rgba(8, 156, 81, 0.5);
+      }
+
+      .mdl-switch__thumb {
+        background: rgb(8, 156, 81);
+        left: 52px;
+      }
+    }
+  }
+}
