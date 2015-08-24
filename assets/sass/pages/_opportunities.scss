@@ -12,6 +12,11 @@
     font-weight: 400;
     padding: 0 0 3em;
     text-align: center;
+
+    /* Add space below bottom of titles */
+    .title {
+      margin-bottom: 0.5em;
+    }
   }
 
   /* Styles for a checkbox */
