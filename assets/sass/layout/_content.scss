@@ -31,3 +31,10 @@
   text-align: center;
 }
 
+/* Hide content by default */
+.wrapper--clients,
+.wrapper--opportunities,
+.wrapper--sales-goals {
+  display: none;
+}
+
