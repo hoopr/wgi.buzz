@@ -10,7 +10,9 @@ var rawData = null, // Raw sales goals data
     officeMaxSales = 0, // Max of goals vs. sales for offices
     $win = $(window), // jQuery window element
     $spinner = $('.loading'), // Material Design Lite spinner
+    $spinnerSalesGoals = $('.loading--sales-goals'), // Second spinnner on goals
     $salesGoals = $('.wrapper--sales-goals'), // Sales Goals content
+    $salesGoalsChart = $('#sales-goals-chart'), // Sales Goals chart
     m = [24, 24, 24, 160], // Margins for a bullet section,
     h = 125 - m[0] - m[2], // Height of a bullet section
     w, // Width of the SVG chart
@@ -27,7 +29,8 @@ var rawData = null, // Raw sales goals data
       'Tampa' : 'tpa',
       'West Palm Beach' : 'wpb'
     };
-    shortNames[year + ' Total'] = 'total'; // Abbreviation for year total
+    shortNames[year + ' Total'] = 'total', // Abbreviation for year total
+    isSliderChange = false; // Whether or not data reload is caused by slider
 
 /* Helper/Utility Functions
 ======================================================================= */
@@ -66,9 +69,17 @@ var resizeWindow = _.debounce(function() {
  */
 function init() {
 
-  // Show the spinner and hide content while data is being loaded
-  $spinner.show();
-  $salesGoals.hide();
+  // Show the spinner and hide content or chart while data is being loaded
+  if (isSliderChange) {
+    $spinnerSalesGoals.show();
+    $salesGoalsChart.hide();
+
+    // If this is initial request, show/hide main spinner and content
+  } else {
+    $spinner.show();
+    $salesGoals.hide();
+  }
+
 
   // Variables to form an AJAX request for data
   var requestURL = '/data', // The URL
@@ -80,8 +91,15 @@ function init() {
   $.getJSON(requestURL, requestData, function(response) {
 
     // Hide the spinner and show content when data loads successfully
-    $spinner.hide();
-    $salesGoals.show();
+    if (isSliderChange) {
+      $spinnerSalesGoals.hide();
+      $salesGoalsChart.show();
+
+      // If this is initial request, show/hide main spinner and content
+    } else {
+      $spinner.hide();
+      $salesGoals.show();
+    }
 
     // Parse the data upon a successful response
     parseData(response);
@@ -89,6 +107,7 @@ function init() {
     // On fail, alert the user and hide the loading screen
   }).fail(function() {
     $spinner.hide();
+    $spinnerSalesGoals.hide();
 
     alert("Sorry, there was an error loading the data. Please refresh the page or try again later.");
   });
@@ -234,6 +253,9 @@ $(window).on('resize', resizeWindow);
  * Event listener for year toggle that updates data when toggle changes
  */
 $('#toggle-year').change(function() {
+
+  // Update slider change
+  isSliderChange = true;
 
   // Update the year
   year = $(this).prop('checked') ? 2016 : 2015;

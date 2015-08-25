@@ -25,7 +25,8 @@
 }
 
 /* Move loading spinner to center of page and hide by default */
-.loading {
+.loading,
+.loading--sales-goals {
   display: none;
   margin-top: 2em;
   text-align: center;
