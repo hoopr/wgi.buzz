@@ -120,14 +120,14 @@ function init() {
       };
 
   // Run the AJAX request
-  $.get(requestURL, requestData, function(response) {
+  $.getJSON(requestURL, requestData, function(response) {
 
     // Hide the spinner and show content when data loads successfully
     $spinner.hide();
     $opportunities.show();
 
     // Parse the data upon a successful response
-    parseData(JSON.parse(response));
+    parseData(response);
 
     // On fail, alert the user and hide the loading screen
   }).fail(function() {
