@@ -14,6 +14,12 @@ A site built to house experimental ideas for the WGI internal think tank ([http:
 - Node.js ([https://nodejs.org/](https://nodejs.org/))
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/))
 
+## Python Requirements
+- apiclient
+- httplib2
+- oauth2client
+- uritemplate
+
 ## Sass Requirements
 - Breakpoint ([http://breakpoint-sass.com/](http://breakpoint-sass.com/))
 - normalize.css ([https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/))
