@@ -61,3 +61,6 @@ function createString(date) {
   var format = d3.time.format("%-m/%-d/%Y");
   return format(date)
 };
+
+// Initialize SVG for Everybody
+svg4everybody();

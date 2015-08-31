@@ -39,3 +39,9 @@
   display: none;
 }
 
+/* Move tooltips above SVG */
+#client-map_tooltip,
+.tooltip {
+  z-index: 1;
+}
+

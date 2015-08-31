@@ -28,7 +28,13 @@
     &-title {
       flex: 1 0 auto;
       font-size: 2.25rem;
+      padding-left: 49px;
       padding-right: 32px;
+
+      /* Increase left padding on large devices */
+      @include breakpoint($mq_large) {
+        padding-left: 56px;
+      }
     }
 
     /* Put the menu button on the right and adjust some positioning */
@@ -63,13 +69,27 @@
 
 /* Logo styles */
 .logo {
-  float: left;
-  margin-top: -2px;
   max-width: 49px;
   width: 100%;
 
-  /* On larger devices, increase size slightly */
+  /* On larger devices, increase max width */
   @include breakpoint($mq_large) {
     max-width: 56px;
+  }
+
+  /* Styles for SVG container */
+  div {
+    height: 0;
+    padding-bottom: 98.64864%;
+    position: relative;
+    width: 100%;
+
+    /* Styles for SVG */
+    svg {
+      left: 0;
+      margin-top: -1px;
+      position: absolute;
+      top: 0;
+    }
   }
 }
