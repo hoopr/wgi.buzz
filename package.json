@@ -1,6 +1,6 @@
 {
   "name": "WGI.buzz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A site built to house experimental ideas for the WGI internal think tank (http://wgi.buzz).",
   "repository": {
     "type": "git"
