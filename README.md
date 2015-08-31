@@ -27,6 +27,7 @@ A site built to house experimental ideas for the WGI internal think tank ([http:
 - jQuery ([https://jquery.com/](https://jquery.com/))
 - Material Design Lite ([http://www.getmdl.io/](http://www.getmdl.io/))
 - noUiSlider ([http://refreshless.com/nouislider/](http://refreshless.com/nouislider/))
+- SVG for Everybody ([https://github.com/jonathantneal/svg4everybody](https://github.com/jonathantneal/svg4everybody))
 - Underscore.js ([http://underscorejs.org/](http://underscorejs.org/))
 
 ## Contributors
