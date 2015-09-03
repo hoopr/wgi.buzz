@@ -23,7 +23,10 @@ var pathPrefix = 'assets/',
               pathPrefix + 'js/vendors/**/*.js',
               pathPrefix + 'js/src/*.js'
              ],
-        files: pathPrefix + 'js/**/*.js',
+        files: [
+                pathPrefix + 'js/vendors/**/*.js',
+                pathPrefix + 'js/src/**/*.js'
+               ],
         dest: pathPrefix + 'js'
       },
       styles: {
