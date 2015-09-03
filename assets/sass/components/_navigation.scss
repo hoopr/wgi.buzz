@@ -45,18 +45,28 @@
        color: $black;
       }
     }
-  }
 
-  /* Styles for sign out link */
-  .sign-out-link {
-    bottom: 22px;
-    color: $text_gray;
-    padding-left: 1.5em;
-    position: absolute;
+    /* Styles for bottom links container in navigation */
+    &_bottom {
+      bottom: 22px;
+      position: absolute;
 
-    /* Less opaque on hover */
-    &:hover {
-      opacity: 0.5;
+      /* Styles for bottom links in nav */
+      &--link {
+        color: $text_gray;
+        display: block;
+        padding-left: 1.5em;
+
+        /* Less opaque on hover */
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+
+      /* Give bottom margin to Drive link in nav */
+      &--link.drive {
+        margin-bottom: 0.75em;
+      }
     }
   }
 }

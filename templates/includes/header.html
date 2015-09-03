@@ -24,5 +24,8 @@
     <a class="mdl-navigation__link {%if page_title == 'Sales Goals' %}active {% endif %}" href="{{ host_url }}/sales-goals"><i class="material-icons">flag</i>Sales Goals</a>
   </nav><!-- mdl-navigation -->
 
-  <a class="sign-out-link" href="{{ sign_out_url }}"><i class="material-icons">exit_to_app</i>Sign out</a>
+  <div class="mdl-navigation_bottom">
+    <a class="mdl-navigation_bottom--link drive" href="https://drive.google.com/drive/#my-drive" target="_blank"><i class="material-icons"><img src="/img/icon_drive.png"></i>Google Drive</a>
+    <a class="mdl-navigation_bottom--link" href="{{ sign_out_url }}"><i class="material-icons">exit_to_app</i>Sign out</a>
+  </div><!-- mdl-navigation_bottom -->
 </div><!-- mdl-layout__drawer -->
