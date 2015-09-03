@@ -27,8 +27,13 @@
     /* Flex the title and adjust some styles */
     &-title {
       flex: 1 0 auto;
-      font-size: 2.25rem;
+      font-size: 1.5rem;
       padding-right: 32px;
+
+      /* Increase font size on medium and up devices */
+      @include breakpoint($mq_medium) {
+        font-size: 2.25rem;
+      }
     }
 
     /* Put the menu button on the right and adjust some positioning */

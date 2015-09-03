@@ -15,9 +15,15 @@
 
   /* Styles for actual toggle component */
   .mdl-switch {
-    margin-left: 16px;
-    padding-left: 88px;
+    margin-left: 8px;
+    padding-left: 80px;
     width: auto;
+
+    /* Increase spacing around toggle on medium and up devices */
+    @include breakpoint($mq_medium) {
+      margin-left: 16px;
+      padding-left: 88px;
+    }
 
     /* Alter the track */
     &__track {

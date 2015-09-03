@@ -1,7 +1,7 @@
 # WGI.buzz
 A site built to house experimental ideas for the WGI internal think tank ([http://wgi.buzz](http://wgi.buzz)).
 
-### Current Version : v1.0.2
+### Current Version : v1.0.3
 
 ## Usage
 1. Download the files.
