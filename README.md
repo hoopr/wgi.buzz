@@ -35,7 +35,3 @@ A site built to house experimental ideas for the WGI internal think tank ([http:
 - noUiSlider ([http://refreshless.com/nouislider/](http://refreshless.com/nouislider/))
 - SVG for Everybody ([https://github.com/jonathantneal/svg4everybody](https://github.com/jonathantneal/svg4everybody))
 - Underscore.js ([http://underscorejs.org/](http://underscorejs.org/))
-
-## Contributors
-- Patrick Hooper ([http://patrick.hoopr.io](http://patrick.hoopr.io))
-- Marie Hooper ([http://marie.hoopr.io](http://marie.hoopr.io))
