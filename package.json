@@ -2,10 +2,23 @@
   "name": "wgi-buzz",
   "version": "1.0.5",
   "description": "A site built to house experimental ideas for the WGI internal think tank (http://wgi.buzz).",
-  "repository": {
-    "type": "git"
+  "homepage": "http://wgi.buzz",
+  "author": {
+    "name": "Patrick Hooper",
+    "email": "patrick.d.hooper@gmail.com",
+    "url": "http://patrick.hoopr.io"
   },
-  "author": "Patrick Hooper (http://patrick.hoopr.io)",
+  "contributors": [
+    {
+      "name": "Marie Hooper",
+      "email": "marie.ashtari@gmail.com",
+      "url": "http://marie.hoopr.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impatrickhooper/wgi-buzz"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.2.0",
