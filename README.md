@@ -22,11 +22,11 @@ A site built to house experimental ideas for the WGI internal think tank ([http:
 
 ## Sass Requirements
 - Breakpoint ([http://breakpoint-sass.com/](http://breakpoint-sass.com/))
-- normalize.css ([https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/))
+- Normalize ([https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/))
 - Material Design Lite ([http://www.getmdl.io/](http://www.getmdl.io/))
 - noUiSlider ([http://refreshless.com/nouislider/](http://refreshless.com/nouislider/))
 - Sassy Maps ([https://github.com/at-import/Sassy-Maps](https://github.com/at-import/Sassy-Maps))
-- Unsemantic Grid System ([http://unsemantic.com/](http://unsemantic.com/))
+- Unsemantic ([http://unsemantic.com/](http://unsemantic.com/))
 
 ## JavaScript Requirements
 - D3.js ([http://d3js.org/](http://d3js.org/))
