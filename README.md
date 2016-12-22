@@ -1,5 +1,6 @@
 # WGI.buzz
-A site built to house experimental ideas for the WGI internal think tank.
+
+A web app meant to serve as a proving ground for ideas from the WGI internal think tank.
 
 ### Current Version : v1.0.5
 
