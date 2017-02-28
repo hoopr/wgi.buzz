@@ -18,8 +18,8 @@ var rawData = null, // Raw sales goals data
     w, // Width of the SVG chart
     year = {{ year }}, // The year of sales goals data
     sheetIDs = {
-      2015 : '15eCdm0k0e_X8dSA414bCGLXkAb98Fy2RabwXj3toWms',
-      2016 : '16sHzeupzLJAeV5Ak_LwzKBl0R4Go68024wqz1hPFRVo'
+      2015 : '2015_SALES_GOALS_SPREADSHEET_URL',
+      2016 : '2016_SALES_GOALS_SPREADSHEET_URL'
     },
     shortNames = { // Object for converting long office names to abbreviations
       'Fort Lauderdale' : 'fll',
@@ -263,4 +263,3 @@ $('#toggle-year').change(function() {
   // Update the data
   init();
 });
-

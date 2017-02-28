@@ -116,7 +116,7 @@ function init() {
   // Variables to form an AJAX request for data
   var requestURL = '/data', // The URL
       requestData = {
-        sheet_id : ['1UMJAD0GljJErRgHE8cmgyeAZHZIGOYaC0HbpHorSlb0', '1--xnM_q-QZ9fYBj7er0j-khu_QBskbWVX9dvLOwbji8'] // Spreadsheet IDs
+        sheet_id : ['EPLA_OPPORTUNITIES_SPREADSHEET_URL', 'TRANSPORTATION_OPPORTUNITIES_SPREADSHEET_URL'] // Spreadsheet IDs
       };
 
   // Run the AJAX request

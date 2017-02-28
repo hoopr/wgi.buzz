@@ -2,22 +2,22 @@
   "name": "wgi-buzz",
   "version": "1.0.5",
   "description": "A web app meant to serve as a proving ground for ideas from the WGI internal think tank.",
-  "homepage": "http://wgi.buzz",
+  "homepage": "https://github.com/hoopr/wgi.buzz#readme",
   "author": {
     "name": "Patrick Hooper",
     "email": "patrick.d.hooper@gmail.com",
-    "url": "http://patrick.hoopr.io"
+    "url": "https://patrickhooper.me"
   },
   "contributors": [
     {
       "name": "Marie Hooper",
       "email": "marie.ashtari@gmail.com",
-      "url": "http://marie.hoopr.io"
+      "url": "https://mariehooper.me"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pdhoopr/wgi-buzz"
+    "url": "https://github.com/hoopr/wgi.buzz"
   },
   "devDependencies": {
     "gulp": "^3.8.11",

@@ -168,7 +168,7 @@ function init() {
   // Variables to form an AJAX request for data
   var requestURL = '/data', // The URL
       requestData = {
-        sheet_id : '1jRWlr8K32ICVsiVdvkXHf7cmry58iDqkqhLQowMAyd8' // Spreadsheet
+        sheet_id : 'CLIENTS_SPREADSHEET_URL' // Spreadsheet
       };
 
   // Run the AJAX request
