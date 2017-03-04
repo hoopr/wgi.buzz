@@ -1,0 +1,1115 @@
+[
+  {
+    "YEAR": 2015,
+    "DISTRICT": "City of Orlando",
+    "CLIENT": "Squirrel City",
+    "PROJECT": "29036963.24 Dwight Hill",
+    "FEES": "$622,439.19"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "City of Orlando",
+    "CLIENT": "Squirrel City",
+    "PROJECT": "71411505.56 Goodland Court",
+    "FEES": "$1,930,382.20"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "City of Orlando",
+    "CLIENT": "Black Melon City",
+    "PROJECT": "30599380.41 Clemons Road",
+    "FEES": "$3,143,752.03"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "51796754.94 Dorton Point",
+    "FEES": "$2,907,313.61"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "46930884.05 Grayhawk Way",
+    "FEES": "$4,674,286.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "57961591.60 Nobel Center",
+    "FEES": "$1,187,002.65"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "54631304.38 Corry Parkway",
+    "FEES": "$661,177.57"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "45139236.05 Scoville Crossing",
+    "FEES": "$4,641,866.54"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "70920611.92 Sauthoff Circle",
+    "FEES": "$573,948.47"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "38519712.34 Judy Street",
+    "FEES": "$4,246,434.06"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "34742463.94 Dovetail Pass",
+    "FEES": "$3,550,847.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "34161368.09 Mitchell Avenue",
+    "FEES": "$4,803,784.39"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "15990242.22 Sachtjen Lane",
+    "FEES": "$3,705,784.91"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "46380493.64 Porter Alley",
+    "FEES": "$4,301,019.90"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "59178123.05 Main Hill",
+    "FEES": "$4,475,692.03"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "46346315.03 Springview Center",
+    "FEES": "$3,396,524.96"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "48075797.07 Bartelt Hill",
+    "FEES": "$4,185,704.59"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "77047905.59 Maryland Way",
+    "FEES": "$786,741.02"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "68613177.84 Monument Place",
+    "FEES": "$1,721,866.44"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "84247905.72 Scoville Street",
+    "FEES": "$1,928,275.06"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "25007691.17 Sage Crossing",
+    "FEES": "$1,167,523.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "13354070.85 Ryan Street",
+    "FEES": "$808,370.62"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "Grey Fork Construction",
+    "PROJECT": "75927422.57 Porter Street",
+    "FEES": "$2,535,954.04"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Pink Meerkat Contracting",
+    "PROJECT": "49114069.74 Norway Maple Alley",
+    "FEES": "$4,744,942.98"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Pink Meerkat Contracting",
+    "PROJECT": "99063108.68 Hanson Place",
+    "FEES": "$4,791,368.06"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "21922178.72 Dapin Plaza",
+    "FEES": "$2,017,554.92"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "65271311.94 Londonderry Hill",
+    "FEES": "$1,944,768.71"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "78580503.22 Warbler Court",
+    "FEES": "$830,159.49"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "46372742.03 Orin Road",
+    "FEES": "$3,255,114.42"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "18261319.12 Susan Pass",
+    "FEES": "$4,708,308.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "49927437.03 Main Lane",
+    "FEES": "$3,055,699.79"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "49160763.97 Crowley Plaza",
+    "FEES": "$2,527,814.75"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "16238692.19 Commercial Alley",
+    "FEES": "$2,412,774.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "49702193.32 Shoshone Drive",
+    "FEES": "$4,471,531.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "26693223.93 Sutteridge Drive",
+    "FEES": "$1,123,943.39"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Peaceful Fan Engineering",
+    "PROJECT": "39381358.85 Birchwood Parkway",
+    "FEES": "$3,798,197.18"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "78149421.79 Caliangt Park",
+    "FEES": "$934,449.28"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Foggy Ram Office",
+    "PROJECT": "46411949.71 Northwestern Road",
+    "FEES": "$2,721,375.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Foggy Ram Office",
+    "PROJECT": "46474665.57 Sunnyside Avenue",
+    "FEES": "$2,977,262.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Foggy Ram Office",
+    "PROJECT": "46759234.45 Jenna Road",
+    "FEES": "$680,717.13"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 6",
+    "CLIENT": "Sunny Sheep, Inc.",
+    "PROJECT": "90381216.65 Sauthoff Alley",
+    "FEES": "$817,355.65"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "FDOT District 7",
+    "CLIENT": "Angry Pigeon Office",
+    "PROJECT": "95985001.45 Park Meadow Pass",
+    "FEES": "$1,071,069.85"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida Department of Environmental Protection",
+    "CLIENT": "Large Alligator Department",
+    "PROJECT": "61021206.63 Hoffman Crossing",
+    "FEES": "$3,572,738.19"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida Department of Environmental Protection",
+    "CLIENT": "Large Alligator Department",
+    "PROJECT": "51422514.15 Sage Point",
+    "FEES": "$470,876.74"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "36296718.84 Schurz Junction",
+    "FEES": "$832,597.14"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "33567152.64 Eagan Street",
+    "FEES": "$2,433,228.43"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "25882672.23 Eagle Crest Street",
+    "FEES": "$3,578,096.91"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "23071715.27 Clove Drive",
+    "FEES": "$1,569,854.16"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "31371542.52 Eastlawn Way",
+    "FEES": "$4,359,486.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "83031036.18 Dovetail Parkway",
+    "FEES": "$650,630.50"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Opaque Whale Associates",
+    "PROJECT": "57329400.59 Onsgard Center",
+    "FEES": "$699,500.24"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Opaque Whale Associates",
+    "PROJECT": "57617932.95 Brickson Park Street",
+    "FEES": "$4,877,849.00"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Opaque Whale Associates",
+    "PROJECT": "42718620.72 Eliot Avenue",
+    "FEES": "$4,580,711.88"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Martin County",
+    "CLIENT": "Hot Skunk County",
+    "PROJECT": "88784323.07 Mcguire Street",
+    "FEES": "$2,750,431.84"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Martin County",
+    "CLIENT": "Hot Skunk County",
+    "PROJECT": "65566776.89 Hansons Point",
+    "FEES": "$267,589.53"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Simple Snake Associates",
+    "PROJECT": "63405573.14 Village Street",
+    "FEES": "$43,810.57"
+  },
+  {
+    "YEAR": 2015,
+    "DISTRICT": "St. Lucie County",
+    "CLIENT": "Pink Turkey County",
+    "PROJECT": "73773141.55 Mallard Circle",
+    "FEES": "$2,279,699.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "City of Orlando",
+    "CLIENT": "Squirrel City",
+    "PROJECT": "42785375.61 Dorton Street",
+    "FEES": "$714,522.02"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "57507220.09 Evergreen Point",
+    "FEES": "$2,332,035.25"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "34165051.90 Charing Cross Alley",
+    "FEES": "$1,760,778.02"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "52781038.23 Blackbird Point",
+    "FEES": "$4,977,774.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "81198435.48 Pond Pass",
+    "FEES": "$3,155,817.79"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "81613702.66 Thompson Drive",
+    "FEES": "$3,872,545.40"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "15949579.70 Sachtjen Trail",
+    "FEES": "$2,069,672.57"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "57673423.76 Village Green Center",
+    "FEES": "$2,702,217.61"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "70682192.71 Crescent Oaks Crossing",
+    "FEES": "$1,180,490.18"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Content Whale North",
+    "PROJECT": "53289132.16 Lyons Point",
+    "FEES": "$1,763,569.50"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Cheerful Moose Engineering",
+    "PROJECT": "89050191.82 Moland Drive",
+    "FEES": "$176,716.93"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "The Large Shoe District Company",
+    "PROJECT": "48772222.68 Main Center",
+    "FEES": "$4,926,077.19"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "Cheeky Hamster Group",
+    "PROJECT": "20180419.02 Blackbird Parkway",
+    "FEES": "$2,561,366.75"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Bull Office",
+    "PROJECT": "79310396.46 Roxbury Hill",
+    "FEES": "$3,471,582.23"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Bull Office",
+    "PROJECT": "31306241.75 Dakota Drive",
+    "FEES": "$3,414,065.25"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Freezing Mouse Inc.",
+    "PROJECT": "72967190.69 Pepper Wood Junction",
+    "FEES": "$4,119,050.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Brown Corp",
+    "PROJECT": "49877562.57 Hoard Parkway",
+    "FEES": "$3,672,421.64"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Brown Corp",
+    "PROJECT": "96971238.38 Fair Oaks Court",
+    "FEES": "$910,292.22"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Obtuse Book, Inc.",
+    "PROJECT": "63829795.40 Karstens Hill",
+    "FEES": "$1,950,981.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Obtuse Book, Inc.",
+    "PROJECT": "50097357.16 Russell Plaza",
+    "FEES": "$3,924,898.80"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "58187934.77 Morning Circle",
+    "FEES": "$1,545,255.85"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "22566250.58 Arrowood Road",
+    "FEES": "$2,658,177.50"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "57882477.83 Haas Pass",
+    "FEES": "$2,433,155.28"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "76262621.72 Pennsylvania Plaza",
+    "FEES": "$1,021,078.32"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "31063005.18 Vera Circle",
+    "FEES": "$933,271.91"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "76115075.20 Bobwhite Hill",
+    "FEES": "$2,026,885.83"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "48503680.04 Iowa Way",
+    "FEES": "$3,357,357.53"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "18059763.48 Cardinal Circle",
+    "FEES": "$3,413,202.75"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "13309923.99 Susan Crossing",
+    "FEES": "$3,364,980.63"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "74337604.97 Farmco Center",
+    "FEES": "$2,981,559.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "76211771.61 Karstens Road",
+    "FEES": "$2,223,098.27"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "21141605.44 Merry Street",
+    "FEES": "$417,214.83"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "79020025.72 Heath Hill",
+    "FEES": "$570,933.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "48940608.80 Kinsman Junction",
+    "FEES": "$2,998,072.83"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "58380346.64 Homewood Road",
+    "FEES": "$4,459,716.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "53602897.43 Esch Court",
+    "FEES": "$4,838,086.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "86895364.96 Surrey Park",
+    "FEES": "$651,539.24"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "70297770.32 Fuller Road",
+    "FEES": "$565,436.86"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Opaque Whale Associates",
+    "PROJECT": "90044358.95 Rowland Circle",
+    "FEES": "$2,493,271.48"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Opaque Whale Associates",
+    "PROJECT": "63306729.58 Nobel Plaza",
+    "FEES": "$1,946,168.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "98971975.20 Forest Dale Center",
+    "FEES": "$796,046.88"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "26789850.10 Delladonna Pass",
+    "FEES": "$1,930,542.72"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "88828869.85 Knutson Trail",
+    "FEES": "$3,971,183.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "72394621.74 Marcy Street",
+    "FEES": "$2,470,904.83"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "19627584.03 Heffernan Crossing",
+    "FEES": "$1,367,176.91"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "76272011.72 Garrison Road",
+    "FEES": "$1,581,629.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "71748848.85 Memorial Trail",
+    "FEES": "$4,093,716.96"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "80415432.74 Sundown Junction",
+    "FEES": "$957,374.70"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "34858396.85 Butterfield Drive",
+    "FEES": "$2,391,828.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Sunny Gorilla Construction",
+    "PROJECT": "99475967.13 Longview Parkway",
+    "FEES": "$4,988,631.43"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Cloudy Pear",
+    "PROJECT": "55895253.95 Troy Way",
+    "FEES": "$683,705.84"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Foggy Ram Office",
+    "PROJECT": "31859300.85 Monterey Park",
+    "FEES": "$995,480.98"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Foggy Ram Office",
+    "PROJECT": "94570264.44 Kingsford Plaza",
+    "FEES": "$1,993,630.00"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Foggy Ram Office",
+    "PROJECT": "56986104.03 Farmco Alley",
+    "FEES": "$2,955,151.55"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "Jealous Skunk Corporation",
+    "PROJECT": "16550667.21 Orin Avenue",
+    "FEES": "$20,515.57"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 6",
+    "CLIENT": "Small Cake Engineering",
+    "PROJECT": "66972927.07 Farmco Street",
+    "FEES": "$1,314,183.93"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "FDOT District 7",
+    "CLIENT": "Little Alligator Associates",
+    "PROJECT": "71768132.69 Manley Point",
+    "FEES": "$4,847,511.63"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "56973714.41 Holmberg Hill",
+    "FEES": "$2,399,593.59"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "63730105.09 Coleman Trail",
+    "FEES": "$310,484.49"
+  },
+  {
+    "YEAR": 2014,
+    "DISTRICT": "Martin County",
+    "CLIENT": "Hot Skunk County",
+    "PROJECT": "84230215.48 Leroy Circle",
+    "FEES": "$4,518,669.00"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "City of Orlando",
+    "CLIENT": "Squirrel City",
+    "PROJECT": "41845646.43 Walton Parkway",
+    "FEES": "$1,753,644.32"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "99218619.07 Grover Way",
+    "FEES": "$445,657.79"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "50028793.39 Reindahl Alley",
+    "FEES": "$618,088.58"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT Central Office",
+    "CLIENT": "Complicated Frog Office",
+    "PROJECT": "41748530.47 Fairview Avenue",
+    "FEES": "$2,647,202.00"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Tiny Elephant Paving",
+    "PROJECT": "21273987.38 Kenwood Road",
+    "FEES": "$4,910,765.26"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 1",
+    "CLIENT": "Obtuse Book, Inc.",
+    "PROJECT": "16392752.79 Anniversary Way",
+    "FEES": "$4,265,866.39"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "The Large Shoe District Company",
+    "PROJECT": "47067070.99 Esker Place",
+    "FEES": "$2,712,550.78"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "The Large Shoe District Company",
+    "PROJECT": "12299542.15 Montana Street",
+    "FEES": "$2,666,436.66"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "The Large Shoe District Company",
+    "PROJECT": "90303789.81 Oxford Center",
+    "FEES": "$1,559,976.23"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 2",
+    "CLIENT": "The Large Shoe District Company",
+    "PROJECT": "36757115.61 Kedzie Street",
+    "FEES": "$215,745.50"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Freezing Mouse Inc.",
+    "PROJECT": "55570653.50 Talmadge Plaza",
+    "FEES": "$4,306,154.21"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Freezing Mouse Inc.",
+    "PROJECT": "65718352.58 Schmedeman Trail",
+    "FEES": "$4,763,898.83"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 3",
+    "CLIENT": "Freezing Mouse Inc.",
+    "PROJECT": "91867923.02 Fuller Hill",
+    "FEES": "$4,486,245.31"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "21690234.18 Schmedeman Court",
+    "FEES": "$722,441.69"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "56402733.58 Merry Road",
+    "FEES": "$423,146.38"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "77966619.54 Truax Junction",
+    "FEES": "$188,110.67"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "75518958.77 Garrison Avenue",
+    "FEES": "$3,437,300.95"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "28090730.10 Cody Street",
+    "FEES": "$3,900,157.47"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "81506955.05 Valley Edge Drive",
+    "FEES": "$2,466,175.03"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "72669143.79 Service Parkway",
+    "FEES": "$1,378,648.64"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "44423247.04 Southridge Junction",
+    "FEES": "$911,846.36"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "19432643.56 Mcbride Avenue",
+    "FEES": "$4,403,024.02"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "50956652.53 Schurz Plaza",
+    "FEES": "$1,227,212.85"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "81700114.64 John Wall Center",
+    "FEES": "$1,048,261.63"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "63614968.42 Spenser Parkway",
+    "FEES": "$825,658.68"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Intelligent Zebra Office",
+    "PROJECT": "75778969.00 Calypso Lane",
+    "FEES": "$2,843,400.54"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 4",
+    "CLIENT": "Snowy Pen Services",
+    "PROJECT": "78193986.50 Superior Terrace",
+    "FEES": "$2,277,900.68"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 5",
+    "CLIENT": "The Orange Lamp Company",
+    "PROJECT": "59905052.46 Dwight Plaza",
+    "FEES": "$1,045,805.91"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 6",
+    "CLIENT": "Complicated Pencil Consultants",
+    "PROJECT": "26939993.94 Artisan Street",
+    "FEES": "$527,051.26"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "FDOT District 7",
+    "CLIENT": "Angry Pigeon Office",
+    "PROJECT": "23754018.68 Anderson Street",
+    "FEES": "$489,630.74"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Brown Corp",
+    "PROJECT": "76618918.16 Debra Lane",
+    "FEES": "$31,343.31"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "The Large Spoon Company",
+    "PROJECT": "94245546.65 Dixon Pass",
+    "FEES": "$832,316.08"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "64286845.16 Northview Avenue",
+    "FEES": "$956,527.65"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Piping Beaver Enterprise",
+    "PROJECT": "89264590.61 Hazelcrest Road",
+    "FEES": "$3,609,757.40"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Florida's Turnpike Enterprise",
+    "CLIENT": "Complicated Lemon",
+    "PROJECT": "31556322.86 David Terrace",
+    "FEES": "$2,542,170.80"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Simple Snake Associates",
+    "PROJECT": "76673797.49 Onsgard Trail",
+    "FEES": "$307,319.83"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Orange Penguin County",
+    "PROJECT": "91567519.14 Hintze Pass",
+    "FEES": "$1,670,458.01"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Orange Penguin County",
+    "PROJECT": "35190259.42 Tomscot Junction",
+    "FEES": "$4,154,640.00"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Orange Penguin County",
+    "PROJECT": "39978185.12 Dahle Court",
+    "FEES": "$1,981,780.49"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Orange Penguin County",
+    "PROJECT": "98929786.53 Bultman Way",
+    "FEES": "$1,242,848.42"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Orange Penguin County",
+    "PROJECT": "53352840.72 Esker Plaza",
+    "FEES": "$4,657,741.00"
+  },
+  {
+    "YEAR": 2013,
+    "DISTRICT": "Palm Beach County",
+    "CLIENT": "Orange Penguin County",
+    "PROJECT": "13339093.91 Killdeer Parkway",
+    "FEES": "$2,148,233.87"
+  }
+]

@@ -2,7 +2,7 @@
   "name": "wgi-buzz",
   "version": "1.0.5",
   "description": "A web app meant to serve as a proving ground for ideas from the WGI internal think tank.",
-  "homepage": "https://github.com/hoopr/wgi.buzz#readme",
+  "homepage": "https://wgibuzz.netlify.com",
   "author": {
     "name": "Patrick Hooper",
     "email": "patrick.d.hooper@gmail.com",

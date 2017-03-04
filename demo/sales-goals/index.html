@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sales Goals | WGI.buzz</title>
+
+    <!-- Material Design Lite -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//storage.googleapis.com/code.getmdl.io/1.0.3/material.blue_grey-green.min.css" />
+    <script src="//storage.googleapis.com/code.getmdl.io/1.0.3/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- End Material Design Lite -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- End Stylesheets -->
+
+  </head>
+
+  <body>
+
+    <div id="wrapper" class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <!-- Header -->
+      <header id="masthead" class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <a href="/" class="logo mdl-typography--title">WGI.buzz</a>
+          <span class="mdl-layout-title">Sales Goals</span>
+        </div><!-- mdl-layout__header-row -->
+      </header><!-- #masthead -->
+
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Navigation</span>
+
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="/"><i class="material-icons">home</i>Home</a>
+
+          <a class="mdl-navigation__link" href="/clients"><i class="material-icons">people</i>Clients</a>
+
+          <a class="mdl-navigation__link" href="/opportunities"><i class="material-icons">view_list</i>Opportunities</a>
+
+          <a class="mdl-navigation__link active" href="/sales-goals"><i class="material-icons">flag</i>Sales Goals</a>
+        </nav><!-- mdl-navigation -->
+
+        <div class="mdl-navigation_bottom">
+          <a class="mdl-navigation_bottom--link drive" href="https://drive.google.com/drive/#my-drive" target="_blank"><i class="material-icons"><img src="/img/icon_drive.png"></i>Google Drive</a>
+          <a class="mdl-navigation_bottom--link" href="/"><i class="material-icons">exit_to_app</i>Sign out</a>
+        </div><!-- mdl-navigation_bottom -->
+      </div><!-- mdl-layout__drawer -->
+      <!-- End Header -->
+
+      <!-- Content -->
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <!-- Loading -->
+          <div class="loading">
+            <div class="mdl-spinner mdl-js-spinner is-active"></div>
+          </div>
+          <!-- End Loading -->
+
+          <div class="wrapper--sales-goals grid-container--full">
+            <div class="toggle">
+              <h3 class="title">Year</h3>
+
+              <span class="toggle_left">2015</span>
+              <label class="mdl-switch mdl-js-switch" for="toggle-year">
+                <input type="checkbox" id="toggle-year" class="mdl-switch__input" />
+                <span class="mdl-switch__label"></span>
+              </label>
+              <span class="toggle_right">2016</span>
+            </div><!-- .toggle -->
+
+           <!-- Loading -->
+            <div class="loading--sales-goals">
+              <div class="mdl-spinner mdl-js-spinner is-active"></div>
+            </div>
+            <!-- End Loading -->
+
+            <!-- Sales Goals Chart -->
+            <div id="sales-goals-chart"></div><!-- #sales-goals-chart -->
+            <!-- End Sales Goals Chart -->
+
+          </div><!-- .wrapper--sales-goals -->
+
+        </div><!-- .page-content -->
+      </main><!-- .mdl-layout__content -->
+      <!-- End Content -->
+
+    </div><!-- #wrapper -->
+
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/sales-goals.js"></script>
+    <!-- End Scripts -->
+
+  </body>
+</html>

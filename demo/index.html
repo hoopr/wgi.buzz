@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home | WGI.buzz</title>
+
+    <!-- Material Design Lite -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//storage.googleapis.com/code.getmdl.io/1.0.3/material.blue_grey-green.min.css" />
+    <script src="//storage.googleapis.com/code.getmdl.io/1.0.3/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- End Material Design Lite -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- End Stylesheets -->
+
+  </head>
+
+  <body>
+
+    <div id="wrapper" class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <!-- Header -->
+      <header id="masthead" class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <a href="/" class="logo mdl-typography--title">WGI.buzz</a>
+          <span class="mdl-layout-title">Home</span>
+        </div><!-- mdl-layout__header-row -->
+      </header><!-- #masthead -->
+
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Navigation</span>
+
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link active" href="/"><i class="material-icons">home</i>Home</a>
+
+          <a class="mdl-navigation__link" href="/clients"><i class="material-icons">people</i>Clients</a>
+
+          <a class="mdl-navigation__link" href="/opportunities"><i class="material-icons">view_list</i>Opportunities</a>
+
+          <a class="mdl-navigation__link" href="/sales-goals"><i class="material-icons">flag</i>Sales Goals</a>
+        </nav><!-- mdl-navigation -->
+
+        <div class="mdl-navigation_bottom">
+          <a class="mdl-navigation_bottom--link drive" href="https://drive.google.com/drive/#my-drive" target="_blank"><i class="material-icons"><img src="/img/icon_drive.png"></i>Google Drive</a>
+          <a class="mdl-navigation_bottom--link" href="/"><i class="material-icons">exit_to_app</i>Sign out</a>
+        </div><!-- mdl-navigation_bottom -->
+      </div><!-- mdl-layout__drawer -->
+      <!-- End Header -->
+
+      <!-- Content -->
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <!-- Loading -->
+          <div class="loading">
+            <div class="mdl-spinner mdl-js-spinner is-active"></div>
+          </div>
+          <!-- End Loading -->
+
+          <div class="wrapper--home card-container grid-container">
+
+            <!-- Clients -->
+            <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+              <div class="card-clients mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h2 class="mdl-card__title-text">Clients</h2>
+                </div><!-- .mdl-card__title -->
+
+                <div class="mdl-card__supporting-text">
+                  See client sales data over the years grouped by district and presented on a choropleth map of Florida.
+                </div><!--.mdl-card__supporting-text -->
+
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/clients"><i class="material-icons">send</i>View</a>
+
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/data/clients.json"><i class="material-icons">edit</i>Update</a>
+                </div><!-- .mdl-card__actions -->
+              </div><!-- .card-clients -->
+            </div><!-- .card-wrapper -->
+            <!-- End Clients -->
+
+            <!-- Opportunities -->
+            <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+              <div class="card-opportunities mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h2 class="mdl-card__title-text">Opportunities</h2>
+                </div><!-- .mdl-card__title -->
+
+                <div class="mdl-card__supporting-text">
+                  Look at or update a timeline of projects being pursued and when different phases of those projects occur.
+                </div><!--.mdl-card__supporting-text -->
+
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/opportunities"><i class="material-icons">send</i>View</a>
+
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/data/opportunities.json"><i class="material-icons">edit</i>Update</a>
+                </div><!-- .mdl-card__actions -->
+              </div><!-- .card-opportunities -->
+            </div><!-- .card-wrapper -->
+            <!-- End Opportunities -->
+
+            <!-- Project Initiation Package -->
+            <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+              <div class="card-pip mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h2 class="mdl-card__title-text">Project Initiation Package</h2>
+                </div><!-- .mdl-card__title -->
+
+                <div class="mdl-card__supporting-text">
+                  Use the link below to submit a PIF. Reference the instructions if you need help.
+                </div><!--.mdl-card__supporting-text -->
+
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/img/project-initiation-form.jpg"><i class="material-icons">send</i>View</a>
+                </div><!-- .mdl-card__actions -->
+              </div><!-- .card-pip -->
+            </div><!-- .card-wrapper -->
+            <!-- End Project Initiation Package -->
+
+            <!-- Sales Goals -->
+            <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+              <div class="card-sales-goals mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h2 class="mdl-card__title-text">Sales Goals</h2>
+                </div><!-- .mdl-card__title -->
+
+                <div class="mdl-card__supporting-text">
+                  Check out or update sales goals by location. Inspired by the United Way goal thermometer!
+                </div><!--.mdl-card__supporting-text -->
+
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/sales-goals"><i class="material-icons">send</i>View</a>
+
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/data/2015-sales-goals.json"><i class="material-icons">edit</i>Update 2015</a>
+
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="/data/2016-sales-goals.json"><i class="material-icons">edit</i>Update 2016</a>
+                </div><!-- .mdl-card__actions -->
+              </div><!-- .card-pip -->
+            </div><!-- .card-wrapper -->
+            <!-- End Sales Goals -->
+
+             <!-- WGI Informer -->
+             <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+              <div class="card-wgi-informer mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h2 class="mdl-card__title-text">WGI Informer</h2>
+                </div><!-- .mdl-card__title -->
+
+                <div class="mdl-card__supporting-text">
+                  Stay up-to-date with all the company happenings.
+                </div><!--.mdl-card__supporting-text -->
+
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://photos.app.goo.gl/kjRdjkz8iGV6mSsh7"><i class="material-icons">send</i>View</a>
+
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://github.com/pdhoopr/wgi-informer"><i class="material-icons">edit</i>Update</a>
+                </div><!-- .mdl-card__actions -->
+              </div><!-- .card-pip -->
+            </div><!-- .card-wrapper -->
+            <!-- End WGI Informer -->
+
+             <!-- WGIki -->
+             <div class="card-wrapper grid-50 tablet-grid-50 mobile-grid-100">
+              <div class="card-wgiki mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h2 class="mdl-card__title-text">WGIki</h2>
+                </div><!-- .mdl-card__title -->
+
+                <div class="mdl-card__supporting-text">
+                  Find the resources you need on the wiki.
+                </div><!--.mdl-card__supporting-text -->
+
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://photos.app.goo.gl/aUPMHwKsx3z9DArJ8"><i class="material-icons">send</i>View</a>
+
+                  <a class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect" href="https://github.com/pdhoopr/wgiki"><i class="material-icons">edit</i>Update</a>
+                </div><!-- .mdl-card__actions -->
+              </div><!-- .card-pip -->
+            </div><!-- .card-wrapper -->
+            <!-- End WGIki -->
+
+          </div><!-- .card-container.grid-container -->
+
+        </div><!-- .page-content -->
+      </main><!-- .mdl-layout__content -->
+      <!-- End Content -->
+
+    </div><!-- #wrapper -->
+
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/app.js"></script>
+    <!-- End Scripts -->
+
+  </body>
+</html>
